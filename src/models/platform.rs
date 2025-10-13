@@ -1,6 +1,8 @@
 use anyhow::anyhow;
+use serde::{Deserialize, Serialize};
 use std::{fmt::Display, str::FromStr};
 
+#[derive(Serialize, Deserialize)]
 pub enum Platform {
     Twitter,
     E621,

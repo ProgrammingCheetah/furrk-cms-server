@@ -4,7 +4,7 @@ use jsonwebtoken::{
 };
 use serde::{Deserialize, Serialize};
 
-use crate::error::AuthError;
+use crate::errors::auth_error::AuthError;
 
 pub type TelegramUserId = String;
 
